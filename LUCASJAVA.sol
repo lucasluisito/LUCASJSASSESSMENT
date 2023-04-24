@@ -1,4 +1,5 @@
 // create a variable to hold your NFT's
+const NFTs = []
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
@@ -32,10 +33,10 @@ function getTotalSupply () {
 }
 
 // call your functions below this line
-mintNFT ("Malit", "Pink", "Tank Top", "Choker");
-mintNFT ("Alber", "Violet", "Jacket", "Gold Chains");
-mintNFT ("Chris", "Red", "Dress", "Diamond Necklace");
-mintNFT ("Faye", "Green", "Swim Suit", "Bracelet");
-mintNFT ("Frances", "White", "Polo", "Shades");
+mintNFT ("Faye", "Pink", "Tshirt", "Pearl Necklace");
+mintNFT ("Connor", "Red", "Hoodie", "Silver Chains");
+mintNFT ("Kyle", "Purple", "Vneck", "Diamond Chains");
+mintNFT ("Erwin", "Yellow", "Sweatshirt", "Gold Chains");
+mintNFT ("Aquino", "Green", "Jacket", "Choker");
 listNFTs();
 getTotalSupply();
